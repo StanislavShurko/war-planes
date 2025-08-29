@@ -1,0 +1,36 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 12px;
+
+  .filters-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .search,
+  select {
+    border: $theme-border;
+    border-radius: 3px;
+    height: 34px;
+    max-height: 34px;
+    position: relative;
+    padding: 0 13px;
+    font-size: 14px;
+    background-color: $theme-bg-input;
+    color: $theme-text;
+    font-weight: 500;
+    transition: border 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  select {
+    width: 160px;
+    appearance: none;
+  }
+}

@@ -1,0 +1,18 @@
+.planes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  gap: 24px;
+}
+
+.plane-info-row {
+  font-size: 12px;
+  margin-bottom: 2px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
